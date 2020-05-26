@@ -1,0 +1,30 @@
+:root {
+  --bg-page: #f3f4f8;
+  --bg-surface: #ffffff;
+  --bg-sidebar: #111827;
+  --text-main: #111827;
+  --text-muted: #6b7280;
+  --border-color: #e5e7eb;
+  --accent: #4f46e5;
+  --sidebar-width: 230px;
+  --sidebar-collapsed: 68px;
+  --topbar-height: 60px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', Arial, sans-serif;
+  background-color: var(--bg-page);
+  color: var(--text-main);
+  line-height: 1.5;
+}
+
+.sidebar-checkbox {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
