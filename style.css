@@ -28,3 +28,19 @@ body {
   position: absolute;
   opacity: 0;
   pointer-events: none;
+}
+
+/* outer CSS grid shell */
+.dashboard-shell {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: var(--sidebar-width) minmax(0, 1fr);
+  grid-template-rows: var(--topbar-height) 1fr;
+  grid-template-areas:
+    "topbar topbar"
+    "sidebar main";
+  transition: grid-template-columns 0.2s ease;
+}
+
+/* collapse sidebar on desktop when checkbox is checked */
+.sidebar-checkbox:checked + .dashboard-shell {
