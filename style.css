@@ -44,3 +44,18 @@ body {
 
 /* collapse sidebar on desktop when checkbox is checked */
 .sidebar-checkbox:checked + .dashboard-shell {
+  grid-template-columns: var(--sidebar-collapsed) minmax(0, 1fr);
+}
+
+.sidebar-checkbox:checked + .dashboard-shell .sidebar .label,
+.sidebar-checkbox:checked + .dashboard-shell .sidebar-note {
+  display: none;
+}
+
+.sidebar-checkbox:checked + .dashboard-shell .nav-link {
+  justify-content: center;
+  padding: 12px 8px;
+}
+
+/* sticky top bar */
+.topbar {
