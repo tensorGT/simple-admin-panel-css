@@ -59,3 +59,18 @@ body {
 
 /* sticky top bar */
 .topbar {
+  grid-area: topbar;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background-color: var(--bg-surface);
+  border-bottom: 1px solid var(--border-color);
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.topbar-left,
+.topbar-right {
+  display: flex;
