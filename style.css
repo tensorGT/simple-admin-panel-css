@@ -120,3 +120,19 @@ body {
 }
 
 /* sidebar */
+.sidebar {
+  grid-area: sidebar;
+  background-color: var(--bg-sidebar);
+  color: #e5e7eb;
+  padding: 18px 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
