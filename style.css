@@ -136,3 +136,18 @@ body {
   flex-direction: column;
   gap: 6px;
 }
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  color: #cbd5e1;
+  text-decoration: none;
+  font-size: 0.92rem;
+  font-weight: 500;
+}
+
+.nav-link:hover,
+.nav-link.active {
