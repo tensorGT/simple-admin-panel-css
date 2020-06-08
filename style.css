@@ -167,3 +167,18 @@ body {
   grid-area: main;
   padding: 24px;
   min-width: 0;
+}
+
+.page-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.page-title-row h1 {
+  font-size: 1.5rem;
+}
+
