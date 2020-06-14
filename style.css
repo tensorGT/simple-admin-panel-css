@@ -182,3 +182,18 @@ body {
   font-size: 1.5rem;
 }
 
+.page-title-row p {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+
+/* summary cards */
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.metric-card {
+  background-color: var(--bg-surface);
