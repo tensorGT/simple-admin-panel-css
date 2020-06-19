@@ -213,3 +213,18 @@ body {
   font-weight: 700;
   margin-bottom: 4px;
 }
+
+.metric-change {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.metric-change.up {
+  color: #16a34a;
+}
+
+.metric-change.down {
+  color: #2563eb;
+}
+
+/* overflow-safe data table */
