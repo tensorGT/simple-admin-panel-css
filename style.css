@@ -243,3 +243,19 @@ body {
   gap: 8px;
   margin-bottom: 14px;
 }
+
+.table-header h2 {
+  font-size: 1.1rem;
+}
+
+.table-sub {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.table-scroll {
+  width: 100%;
+  overflow-x: auto;
+}
+
+table {
