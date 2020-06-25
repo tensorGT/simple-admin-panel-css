@@ -259,3 +259,18 @@ body {
 }
 
 table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px;
+  font-size: 0.9rem;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 12px 10px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+th {
+  font-size: 0.8rem;
