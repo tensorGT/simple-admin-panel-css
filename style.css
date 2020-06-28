@@ -289,3 +289,19 @@ th {
 
 .status-paid {
   background-color: #dcfce7;
+  color: #166534;
+}
+
+.status-pending {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+.status-refund {
+  background-color: #fee2e2;
+  color: #991b1b;
+}
+
+/* breakpoints */
+@media (max-width: 960px) {
+  .metrics-grid {
