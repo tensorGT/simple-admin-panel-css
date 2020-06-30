@@ -305,3 +305,18 @@ th {
 /* breakpoints */
 @media (max-width: 960px) {
   .metrics-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 680px) {
+  .dashboard-shell {
+    grid-template-columns: 1fr;
+    grid-template-rows: var(--topbar-height) auto 1fr;
+    grid-template-areas:
+      "topbar"
+      "sidebar"
+      "main";
+  }
+
+  .sidebar-checkbox:checked + .dashboard-shell {
