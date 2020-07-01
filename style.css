@@ -320,3 +320,19 @@ th {
   }
 
   .sidebar-checkbox:checked + .dashboard-shell {
+    grid-template-columns: 1fr;
+  }
+
+  /* on mobile, sidebar hides when toggled */
+  .sidebar-checkbox:checked + .dashboard-shell .sidebar {
+    display: none;
+  }
+
+  .metrics-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .main-content {
+    padding: 16px;
+  }
+}

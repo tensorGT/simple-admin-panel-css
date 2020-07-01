@@ -6,3 +6,4 @@ A dashboard layout made with CSS Grid, CSS custom properties (`--var`), and `@me
 - Sticky top bar
 - Collapsible sidebar using a CSS checkbox toggle (no JS needed!)
 - 4 summary metric cards
+- Horizontal-scroll-safe data table so small screens don't break
